@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Months : MonoBehaviour
+public class Month : MonoBehaviour
 {
     //creo una variable global
     [SerializeField]
@@ -60,7 +60,7 @@ public class Months : MonoBehaviour
                 Debug.Log("Diciembre");
                 break;
             default:
-                Debug.Log("El número introducido no se corresponde con ningún día de los meses.");
+                Debug.Log("El número introducido no se corresponde con ningún mes.");
                 break;
 
 
